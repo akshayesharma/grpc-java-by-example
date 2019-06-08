@@ -45,7 +45,7 @@ public class MyGrpcServer {
     public void greeting(HelloRequest request, StreamObserver<HelloResponse> responseObserver) {
       System.out.println(request);
 
-      String greeting = "Hello there, " + request.getName();
+      String greeting = "Hello fasfsafdsafsadf, " + request.getName();
 
       HelloResponse response = HelloResponse.newBuilder().setGreeting(greeting).build();
 
